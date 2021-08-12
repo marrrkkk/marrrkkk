@@ -1,16 +1,8 @@
-### Hi there 👋
-
-<!--
-**yayeen/yayeen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Hi there 
 
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ... a Discord Bot
 - 🌱 I’m currently learning ... JavaScript
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ... 
-- 📫 How to reach me: ... 
+- 📫 How to reach me: ... qwertyuiopasdfghjklzxcvbnm#0666 My Discord
 - 😄 Pronouns: ... He/Him
-- ⚡ Fun fact: ...
--->
