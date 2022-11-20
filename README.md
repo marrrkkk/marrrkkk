@@ -2,19 +2,16 @@
 <a href="https://discord.com/users/81440609602201193" target="_blank"> <img src="https://discord.c99.nl/widget/theme-1/814406096022011934.png"/></a><br>
 
 <h3 align="left">Skills:</h3>
-<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
-<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,python)](https://skillicons.dev)
 
 <h3 align="left">Currently Learning:</h3>
-<img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+[![My Skills](https://skillicons.dev/icons?i=cpp,nodejs,ps)](https://skillicons.dev)
 
 <h3 align="left">Tools:</h3>
-<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-<img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white">
-<img src="https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white">
-<img src="https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white">
+<a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"></a>
+<a href="https://www.google.com/chrome/"><img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white"></a>
+<a href="www.opera.com/gx"><img src="https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white"></a>
+<a href="https://www.microsoft.com/software-download/windows11"><img src="https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white"></a>
 
 <h3 align="left">Gaming:</h3>
 <a href="https://www.blizzard.com/en-us/"><img src="https://img.shields.io/badge/battle.net-%2300AEFF.svg?style=for-the-badge&logo=battle.net&logoColor=white"><a>
@@ -25,11 +22,13 @@
 
 <h3>Stats:</h3>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=marrrkkk&show_icons=true&locale=en&layout=compact" alt="marrrkkk" /></p>
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=marrrkkk&theme=tokyonight&repo=SnipeBot)](https://github.com/marrrkkk/SnipeBot)
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=marrrkkk&show_icons=true&locale=en" alt="marrrkkk" /></p>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=marrrkkk&theme=tokyonight&layout=compact)](https://github.com/marrrkkk/marrrkkk)
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=marrrkkk&" alt="marrrkkk" /></p>
+![Mark's GitHub stats](https://github-readme-stats.vercel.app/api?username=marrrkkk&theme=tokyonight&show_icons=true)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=marrrkkk&theme=tokyonight)](https://git.io/streak-stats)
 
 :mailbox: Reach me out!
 
