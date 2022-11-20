@@ -2,10 +2,12 @@
 <a href="https://discord.com/users/81440609602201193" target="_blank"> <img src="https://discord.c99.nl/widget/theme-1/814406096022011934.png"/></a><br>
 
 <h3 align="left">Skills:</h3>
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,python)](https://skillicons.dev)
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,python)](https://github.com/marrrkkk/marrrkkk)
 
 <h3 align="left">Currently Learning:</h3>
-[![My Skills](https://skillicons.dev/icons?i=cpp,nodejs,ps)](https://skillicons.dev)
+
+[![My Skills](https://skillicons.dev/icons?i=cpp,nodejs,ps)](https://github.com/marrrkkk/marrrkkk)
 
 <h3 align="left">Tools:</h3>
 <a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"></a>
