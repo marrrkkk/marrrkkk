@@ -12,7 +12,7 @@
 <h3 align="left">Tools:</h3>
 <a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"></a>
 <a href="https://www.google.com/chrome/"><img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white"></a>
-<a href="www.opera.com/gx"><img src="https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white"></a>
+<a href="https://www.opera.com/gx"><img src="https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white"></a>
 <a href="https://www.microsoft.com/software-download/windows11"><img src="https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white"></a>
 
 <h3 align="left">Gaming:</h3>
