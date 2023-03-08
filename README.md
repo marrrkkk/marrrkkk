@@ -8,7 +8,7 @@
 
 <h3 align="left">Currently Learning:</h3>
 
-[![My Skills](https://skillicons.dev/icons?i=cpp,nodejs,ps)](https://github.com/marrrkkk/marrrkkk)
+[![My Skills](https://skillicons.dev/icons?i=cpp,java)](https://github.com/marrrkkk/marrrkkk)
 
 <h3 align="left">Tools:</h3>
 <a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"></a>
