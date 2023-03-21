@@ -2,6 +2,8 @@
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/814406096022011934)](https://discord.com/users/814406096022011934)
 
+[![wakatime](https://wakatime.com/badge/user/8044c689-6a7c-43a8-be35-68e7ff75f4f1.svg)](https://wakatime.com/@8044c689-6a7c-43a8-be35-68e7ff75f4f1)
+
 <h3 align="left">Skills:</h3>
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,python)](https://github.com/marrrkkk/marrrkkk)
