@@ -20,13 +20,6 @@
 <a href="https://www.opera.com/gx"><img src="https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white"></a>
 <a href="https://www.microsoft.com/software-download/windows11"><img src="https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white"></a>
 
-<h3 align="center">Gaming</h3>
-<a href="https://www.blizzard.com/en-us/"><img src="https://img.shields.io/badge/battle.net-%2300AEFF.svg?style=for-the-badge&logo=battle.net&logoColor=white"><a>
-<a href="https://store.epicgames.com/en-US/"><img src="https://img.shields.io/badge/epicgames-%23313131.svg?style=for-the-badge&logo=epicgames&logoColor=white"></a>
-<a href="https://www.riotgames.com/en"><img src="https://img.shields.io/badge/riotgames-D32936.svg?style=for-the-badge&logo=riotgames&logoColor=white"><a>
-<a href="https://steamcommunity.com/id/marrrkkk/"><img src="https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white"></a>
-<a href="https://www.ubisoft.com/en-gb/"><img src="https://img.shields.io/badge/Ubisoft-%23F5F5F5.svg?style=for-the-badge&logo=Ubisoft&logoColor=black"></a>
-
 <h3>Stats</h3>
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=marrrkkk&theme=tokyonight&repo=SnipeBot)](https://github.com/marrrkkk/SnipeBot)
