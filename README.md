@@ -10,7 +10,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,python)](https://github.com/marrrkkk/marrrkkk)
 
-<h3 align="center">Currently Learning:</h3>
+<h3 align="center">Currently Learning</h3>
 
 [![My Skills](https://skillicons.dev/icons?i=cpp,java)](https://github.com/marrrkkk/marrrkkk)
 
