@@ -4,7 +4,7 @@
 
 [![wakatime](https://wakatime.com/badge/user/8044c689-6a7c-43a8-be35-68e7ff75f4f1.svg)](https://wakatime.com/@8044c689-6a7c-43a8-be35-68e7ff75f4f1)
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,python)](https://github.com/marrrkkk/marrrkkk)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,bootstrap)](https://github.com/marrrkkk/marrrkkk)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=marrrkkk&theme=tokyonight&repo=SnipeBot)](https://github.com/marrrkkk/SnipeBot)
 
