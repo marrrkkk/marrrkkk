@@ -5,7 +5,7 @@ I'm an aspiring frontend developer, currently focusing on react and python
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/814406096022011934)](https://discord.com/users/814406096022011934)
 
-[![My Skills](https://skillicons.dev/icons?i=react,tailwind,js,html,css)](https://github.com/marrrkkk/marrrkkk)
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,js,ts,html,css)](https://github.com/marrrkkk/marrrkkk)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=marrrkkk&theme=tokyonight&layout=compact)](https://github.com/marrrkkk/marrrkkk)
 
