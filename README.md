@@ -7,7 +7,7 @@ I'm an aspiring frontend developer, currently focusing on react and typescript
 
 ## Skills
 
-[![My Skills](https://skillicons.dev/icons?i=react,next,tailwind,js,ts,html,css)](https://github.com/marrrkkk/marrrkkk)
+[![My Skills](https://skillicons.dev/icons?i=react,next,tailwind,ts,js,html,css)](https://github.com/marrrkkk/marrrkkk)
 
 ## Stats
 
