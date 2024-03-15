@@ -1,5 +1,5 @@
 # hey, I'm mark 👋
-I'm an aspiring frontend developer, currently focusing on react/next and typescript
+I'm an aspiring frontend developer, currently focusing on react with typescript
 
 [![wakatime](https://wakatime.com/badge/user/8044c689-6a7c-43a8-be35-68e7ff75f4f1.svg)](https://wakatime.com/@8044c689-6a7c-43a8-be35-68e7ff75f4f1)
 
