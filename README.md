@@ -1,7 +1,7 @@
 <div align="center">
 
 # hey, I'm Mark 👋  
-I'm an aspiring frontend developer, currently focusing on React/Next.js with TypeScript
+I'm a Full-Stack Web Developer, specializing in React/Next.js with TypeScript
 
 [![wakatime](https://wakatime.com/badge/user/8044c689-6a7c-43a8-be35-68e7ff75f4f1.svg)](https://wakatime.com/@8044c689-6a7c-43a8-be35-68e7ff75f4f1)
 
