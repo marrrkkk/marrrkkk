@@ -9,7 +9,7 @@ I'm a Full-Stack Web Developer, specializing in React/Next.js with TypeScript
 
 ## Skills
 
-[![My Skills](https://skillicons.dev/icons?i=react,next,tailwind,ts,js,html,css)](https://github.com/marrrkkk/marrrkkk)
+[![My Skills](https://skillicons.dev/icons?i=react,next,tailwind,ts,js,supabase,express)](https://github.com/marrrkkk/marrrkkk)
 
 ## Stats
 
