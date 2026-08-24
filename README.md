@@ -13,10 +13,6 @@ I'm a Full-Stack Web Developer, specializing in React/Next.js with TypeScript
 
 ## Stats
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=marrrkkk&theme=tokyonight&layout=compact)](https://github.com/marrrkkk/marrrkkk)
-
-![Mark's GitHub stats](https://github-readme-stats.vercel.app/api?username=marrrkkk&theme=tokyonight&show_icons=true)
-
 [![GitHub Streak](https://streak-stats.demolab.com?user=marrrkkk&theme=tokyonight)](https://git.io/streak-stats)
 
 :mailbox: Reach me out!
