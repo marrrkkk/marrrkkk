@@ -20,6 +20,6 @@ I'm a Full-Stack Engineer, specializing in React/Next.js with TypeScript
 [![Twitter Badge](https://img.shields.io/badge/-@marrrkkk__-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/marrrkkk__)](https://twitter.com/marrrkkk__) 
 [![Linkedin Badge](https://img.shields.io/badge/-Mark_Louie-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mark-louie-alvarez-b90162257/) 
 [![Mail Badge](https://img.shields.io/badge/-@marklouiealvarez_-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://instagram.com/marrrrkkkk__/) 
-[![Mail Badge](https://img.shields.io/badge/-definitelynotmark13-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:definitelynotmark13@gmail.com)
+[![Mail Badge](https://img.shields.io/badge/-definitelynotmark13-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:marklouie.dev@gmail.com)
 
 </div>
