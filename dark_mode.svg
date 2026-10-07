@@ -1,74 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="967" height="452" viewBox="0 0 967 452" font-family="Consolas, 'Courier New', monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="967" height="441" viewBox="0 0 967 441" font-family="Consolas, 'Courier New', monospace">
 <style>text { white-space: pre; }</style>
-<rect width="967" height="452" rx="15" fill="#1e1e2e"/>
+<rect width="967" height="441" rx="15" fill="#1e1e2e"/>
 <g fill="#cdd6f4" font-size="9">
-<text x="28" y="41.9" textLength="361.8" lengthAdjust="spacing">                             .~==;;;~~~:                           </text>
-<text x="28" y="52.3" textLength="361.8" lengthAdjust="spacing">                         ~=?||?+?++|XXX||)+.                       </text>
-<text x="28" y="62.7" textLength="361.8" lengthAdjust="spacing">                      ;++=~~~~:~?X#]X&amp;&amp;%oo%&amp;%o|=:                  </text>
-<text x="28" y="73.1" textLength="361.8" lengthAdjust="spacing">                   :=+=:.:;?+|]]&amp;@&amp;%o%@@@#o])|#&amp;&amp;X?.               </text>
-<text x="28" y="83.5" textLength="361.8" lengthAdjust="spacing">                 .==;~~=||?)]X%&amp;#&amp;@@@@@@%];.;|]oX%%%+              </text>
-<text x="28" y="93.9" textLength="361.8" lengthAdjust="spacing">                ~=;~;=+?++?)o#%@&amp;&amp;&amp;@@#X]]X#o|?)X&amp;@#&amp;@o.            </text>
-<text x="28" y="104.3" textLength="361.8" lengthAdjust="spacing">              .;==~;?)|;)&amp;&amp;&amp;&amp;@@@@@@@&amp;#X|~:=|%&amp;#]o%@@@@%:           </text>
-<text x="28" y="114.7" textLength="361.8" lengthAdjust="spacing">              :=;:+Xo=+?o##%%&amp;@@@@@@@X;;=??X&amp;%@&amp;&amp;%&amp;&amp;@@@%:          </text>
-<text x="28" y="125.1" textLength="361.8" lengthAdjust="spacing">            .~=~;|##)?+|]#&amp;&amp;@@@@@@@@@@X+=|%%@@@@@@&amp;@@&amp;@@o          </text>
-<text x="28" y="135.5" textLength="361.8" lengthAdjust="spacing">           :~=~]#%&amp;o|));=)##X%#&amp;@@&amp;&amp;%@@&amp;]]X@&amp;%&amp;@@@@@@&amp;&amp;@#+         </text>
-<text x="28" y="145.9" textLength="361.8" lengthAdjust="spacing">           ;;;X@&amp;@Xoo@&amp;o)X| o&amp;o###@%XX&amp;@&amp;&amp;&amp;@@&amp;@@@@@@@@&amp;@@X;        </text>
-<text x="28" y="156.3" textLength="361.8" lengthAdjust="spacing">          ;~=X@&amp;@%)@@@%oo; ~&amp;%]]||@%X)&amp;@%%@&amp;@@@@@@@@@@@@@@]        </text>
-<text x="28" y="166.7" textLength="361.8" lengthAdjust="spacing">         .=;X@@o@]X@@&amp;o?.  =&amp;%o)%#@@#;o@@#&amp;&amp;&amp;@&amp;@@@@@@@@@@@&amp;;       </text>
-<text x="28" y="177.1" textLength="361.8" lengthAdjust="spacing">         :;)%%o)%#&amp;@%X?:   =]%#X&amp;&amp;&amp;@%?)&amp;@@&amp;@&amp;&amp;@@@@@@@@@@@@&amp;)       </text>
-<text x="28" y="187.5" textLength="361.8" lengthAdjust="spacing">         :+%&amp;) ~;#&amp;%]~:.   =|X%%&amp;%%&amp;@XX#&amp;@@@@@@@@@@@@@@@@@%#.      </text>
-<text x="28" y="197.9" textLength="361.8" lengthAdjust="spacing">         ~X%#+==~;:=+:.:   ~+]o@@Xo&amp;@@&amp;@@@@@@@@@@@@@@@@@@@&amp;%;      </text>
-<text x="28" y="208.3" textLength="361.8" lengthAdjust="spacing">         =&amp;#o+|~?)?. :      =+)]@o)&amp;&amp;%&amp;@@@@@@@@@@@@@@@@@@&amp;@&amp;+      </text>
-<text x="28" y="218.7" textLength="361.8" lengthAdjust="spacing">         )%o+:;::?o).        ;;=|]?]oX#@&amp;@@@@@@@@@@@@@@@@#@@+      </text>
-<text x="28" y="229.1" textLength="361.8" lengthAdjust="spacing">         o%]:  ::::~.        :~~~;~~.=o&amp;#@@@@@@@@@@@@@@@@X@@=      </text>
-<text x="28" y="239.5" textLength="361.8" lengthAdjust="spacing">         #%|               :?;;|o)?+; ?#&amp;@@@@@@@@@@@@@@@@X@@~      </text>
-<text x="28" y="249.9" textLength="361.8" lengthAdjust="spacing">        .X]|                :~:;+=~)|: +&amp;@@@@@@@@@@@@@@@@&amp;@%~      </text>
-<text x="28" y="260.3" textLength="361.8" lengthAdjust="spacing">        ~X))                    :~~:    |@@@@@@@@@@@@@@@@&amp;@%;      </text>
-<text x="28" y="270.7" textLength="361.8" lengthAdjust="spacing">        ~#&amp;X      ;.                    ]@@@@@@@@@@@@@@@@&amp;&amp;%|      </text>
-<text x="28" y="281.1" textLength="361.8" lengthAdjust="spacing">        :%&amp;&amp;~                          ~@@@@@@@@@@@@@@@@@@@%)      </text>
-<text x="28" y="291.5" textLength="361.8" lengthAdjust="spacing">        =@X%o    . :==:                #@@@@@@@@@@@@@@@@@&amp;@%]      </text>
-<text x="28" y="301.9" textLength="361.8" lengthAdjust="spacing">        ;@%#@+   ~;~~.                o@@@@@@@@@@@@@@@@@@&amp;&amp;X]:     </text>
-<text x="28" y="312.3" textLength="361.8" lengthAdjust="spacing">        =@@&amp;@&amp;:     .~::.           ~X@@@@@@@@@@@&amp;@@@@@@@@@%]~     </text>
-<text x="28" y="322.7" textLength="361.8" lengthAdjust="spacing">        |@@@@@#  :~.             :~)@@&amp;@@@@@@@@@@o&amp;@@@@@@@@@o~     </text>
-<text x="28" y="333.1" textLength="361.8" lengthAdjust="spacing">        ]@@@@@@X             .~;~:~#@&amp;%@@@@@@@@@@)o@@@@@@@@@%;     </text>
-<text x="28" y="343.5" textLength="361.8" lengthAdjust="spacing">        X@@@@@@@#+:      :;~::.  .;%@#&amp;@@@@@@@@@@o?@@@@&amp;&amp;@@@@)     </text>
-<text x="28" y="353.9" textLength="361.8" lengthAdjust="spacing">        %@@@@@@@&amp;@@XXXX#|+;      =%@&amp;%@@@@@@@@&amp;&amp;@&amp;?%@@@&amp;#@@@@%~    </text>
-<text x="28" y="364.3" textLength="361.8" lengthAdjust="spacing">       :&amp;@@@@@@@#X@#%@@@%:  .:: ~#@@@@@@@@@@@@@@&amp;@#]&amp;@@@%o#@&amp;@)    </text>
-<text x="28" y="374.7" textLength="361.8" lengthAdjust="spacing">       ~@@@@@@@@#?@X&amp;@&amp;%o;..   ;]@@@@@@@@@@@@@@@&amp;@@#o&amp;@@&amp;]o@##&amp;:   </text>
-<text x="28" y="385.1" textLength="361.8" lengthAdjust="spacing">       +@@@@@@@@#+@?%@@&amp;      ?]&amp;@@@@@@@@&amp;@@@@@@@&amp;@@#X@@@o)&amp;&amp;]%]   </text>
-<text x="28" y="395.5" textLength="361.8" lengthAdjust="spacing">       |@@@@@@@@#)@|%@&amp;&amp;o   .|o&amp;@@@@@@@#=.#@@@@@@@&amp;@@%&amp;@@%=X@%o@?  </text>
-<text x="28" y="405.9" textLength="361.8" lengthAdjust="spacing">       o@@@@@@@@&amp;&amp;&amp;?&amp;@%#@| :|#@@@@@@@o=:  :o&amp;@@@@@#X@&amp;#&amp;@@]?@@&amp;%@= </text>
-<text x="28" y="416.3" textLength="361.8" lengthAdjust="spacing">       %@@@@@@@@@@#?@@#o@@|]%@@@@@&amp;X+~~     |#@@&amp;@@]#@&amp;&amp;@@&amp;|#@@o%&amp;~</text>
+<text x="28" y="36.3" textLength="361.8" lengthAdjust="spacing">                             .~==;;;~~~:                           </text>
+<text x="28" y="46.7" textLength="361.8" lengthAdjust="spacing">                         ~=?||?+?++|XXX||)+.                       </text>
+<text x="28" y="57.1" textLength="361.8" lengthAdjust="spacing">                      ;++=~~~~:~?X#]X&amp;&amp;%oo%&amp;%o|=:                  </text>
+<text x="28" y="67.5" textLength="361.8" lengthAdjust="spacing">                   :=+=:.:;?+|]]&amp;@&amp;%o%@@@#o])|#&amp;&amp;X?.               </text>
+<text x="28" y="77.9" textLength="361.8" lengthAdjust="spacing">                 .==;~~=||?)]X%&amp;#&amp;@@@@@@%];.;|]oX%%%+              </text>
+<text x="28" y="88.3" textLength="361.8" lengthAdjust="spacing">                ~=;~;=+?++?)o#%@&amp;&amp;&amp;@@#X]]X#o|?)X&amp;@#&amp;@o.            </text>
+<text x="28" y="98.7" textLength="361.8" lengthAdjust="spacing">              .;==~;?)|;)&amp;&amp;&amp;&amp;@@@@@@@&amp;#X|~:=|%&amp;#]o%@@@@%:           </text>
+<text x="28" y="109.1" textLength="361.8" lengthAdjust="spacing">              :=;:+Xo=+?o##%%&amp;@@@@@@@X;;=??X&amp;%@&amp;&amp;%&amp;&amp;@@@%:          </text>
+<text x="28" y="119.5" textLength="361.8" lengthAdjust="spacing">            .~=~;|##)?+|]#&amp;&amp;@@@@@@@@@@X+=|%%@@@@@@&amp;@@&amp;@@o          </text>
+<text x="28" y="129.9" textLength="361.8" lengthAdjust="spacing">           :~=~]#%&amp;o|));=)##X%#&amp;@@&amp;&amp;%@@&amp;]]X@&amp;%&amp;@@@@@@&amp;&amp;@#+         </text>
+<text x="28" y="140.3" textLength="361.8" lengthAdjust="spacing">           ;;;X@&amp;@Xoo@&amp;o)X| o&amp;o###@%XX&amp;@&amp;&amp;&amp;@@&amp;@@@@@@@@&amp;@@X;        </text>
+<text x="28" y="150.7" textLength="361.8" lengthAdjust="spacing">          ;~=X@&amp;@%)@@@%oo; ~&amp;%]]||@%X)&amp;@%%@&amp;@@@@@@@@@@@@@@]        </text>
+<text x="28" y="161.1" textLength="361.8" lengthAdjust="spacing">         .=;X@@o@]X@@&amp;o?.  =&amp;%o)%#@@#;o@@#&amp;&amp;&amp;@&amp;@@@@@@@@@@@&amp;;       </text>
+<text x="28" y="171.5" textLength="361.8" lengthAdjust="spacing">         :;)%%o)%#&amp;@%X?:   =]%#X&amp;&amp;&amp;@%?)&amp;@@&amp;@&amp;&amp;@@@@@@@@@@@@&amp;)       </text>
+<text x="28" y="181.9" textLength="361.8" lengthAdjust="spacing">         :+%&amp;) ~;#&amp;%]~:.   =|X%%&amp;%%&amp;@XX#&amp;@@@@@@@@@@@@@@@@@%#.      </text>
+<text x="28" y="192.3" textLength="361.8" lengthAdjust="spacing">         ~X%#+==~;:=+:.:   ~+]o@@Xo&amp;@@&amp;@@@@@@@@@@@@@@@@@@@&amp;%;      </text>
+<text x="28" y="202.7" textLength="361.8" lengthAdjust="spacing">         =&amp;#o+|~?)?. :      =+)]@o)&amp;&amp;%&amp;@@@@@@@@@@@@@@@@@@&amp;@&amp;+      </text>
+<text x="28" y="213.1" textLength="361.8" lengthAdjust="spacing">         )%o+:;::?o).        ;;=|]?]oX#@&amp;@@@@@@@@@@@@@@@@#@@+      </text>
+<text x="28" y="223.5" textLength="361.8" lengthAdjust="spacing">         o%]:  ::::~.        :~~~;~~.=o&amp;#@@@@@@@@@@@@@@@@X@@=      </text>
+<text x="28" y="233.9" textLength="361.8" lengthAdjust="spacing">         #%|               :?;;|o)?+; ?#&amp;@@@@@@@@@@@@@@@@X@@~      </text>
+<text x="28" y="244.3" textLength="361.8" lengthAdjust="spacing">        .X]|                :~:;+=~)|: +&amp;@@@@@@@@@@@@@@@@&amp;@%~      </text>
+<text x="28" y="254.7" textLength="361.8" lengthAdjust="spacing">        ~X))                    :~~:    |@@@@@@@@@@@@@@@@&amp;@%;      </text>
+<text x="28" y="265.1" textLength="361.8" lengthAdjust="spacing">        ~#&amp;X      ;.                    ]@@@@@@@@@@@@@@@@&amp;&amp;%|      </text>
+<text x="28" y="275.5" textLength="361.8" lengthAdjust="spacing">        :%&amp;&amp;~                          ~@@@@@@@@@@@@@@@@@@@%)      </text>
+<text x="28" y="285.9" textLength="361.8" lengthAdjust="spacing">        =@X%o    . :==:                #@@@@@@@@@@@@@@@@@&amp;@%]      </text>
+<text x="28" y="296.3" textLength="361.8" lengthAdjust="spacing">        ;@%#@+   ~;~~.                o@@@@@@@@@@@@@@@@@@&amp;&amp;X]:     </text>
+<text x="28" y="306.7" textLength="361.8" lengthAdjust="spacing">        =@@&amp;@&amp;:     .~::.           ~X@@@@@@@@@@@&amp;@@@@@@@@@%]~     </text>
+<text x="28" y="317.1" textLength="361.8" lengthAdjust="spacing">        |@@@@@#  :~.             :~)@@&amp;@@@@@@@@@@o&amp;@@@@@@@@@o~     </text>
+<text x="28" y="327.5" textLength="361.8" lengthAdjust="spacing">        ]@@@@@@X             .~;~:~#@&amp;%@@@@@@@@@@)o@@@@@@@@@%;     </text>
+<text x="28" y="337.9" textLength="361.8" lengthAdjust="spacing">        X@@@@@@@#+:      :;~::.  .;%@#&amp;@@@@@@@@@@o?@@@@&amp;&amp;@@@@)     </text>
+<text x="28" y="348.3" textLength="361.8" lengthAdjust="spacing">        %@@@@@@@&amp;@@XXXX#|+;      =%@&amp;%@@@@@@@@&amp;&amp;@&amp;?%@@@&amp;#@@@@%~    </text>
+<text x="28" y="358.7" textLength="361.8" lengthAdjust="spacing">       :&amp;@@@@@@@#X@#%@@@%:  .:: ~#@@@@@@@@@@@@@@&amp;@#]&amp;@@@%o#@&amp;@)    </text>
+<text x="28" y="369.1" textLength="361.8" lengthAdjust="spacing">       ~@@@@@@@@#?@X&amp;@&amp;%o;..   ;]@@@@@@@@@@@@@@@&amp;@@#o&amp;@@&amp;]o@##&amp;:   </text>
+<text x="28" y="379.5" textLength="361.8" lengthAdjust="spacing">       +@@@@@@@@#+@?%@@&amp;      ?]&amp;@@@@@@@@&amp;@@@@@@@&amp;@@#X@@@o)&amp;&amp;]%]   </text>
+<text x="28" y="389.9" textLength="361.8" lengthAdjust="spacing">       |@@@@@@@@#)@|%@&amp;&amp;o   .|o&amp;@@@@@@@#=.#@@@@@@@&amp;@@%&amp;@@%=X@%o@?  </text>
+<text x="28" y="400.3" textLength="361.8" lengthAdjust="spacing">       o@@@@@@@@&amp;&amp;&amp;?&amp;@%#@| :|#@@@@@@@o=:  :o&amp;@@@@@#X@&amp;#&amp;@@]?@@&amp;%@= </text>
+<text x="28" y="410.7" textLength="361.8" lengthAdjust="spacing">       %@@@@@@@@@@#?@@#o@@|]%@@@@@&amp;X+~~     |#@@&amp;@@]#@&amp;&amp;@@&amp;|#@@o%&amp;~</text>
 </g>
 <g font-size="14">
-<text x="417.8" y="42.8" textLength="520.8" lengthAdjust="spacing"><tspan fill="#cdd6f4">mark@marrrkkk </tspan><tspan fill="#6c7086">————————————————————————————————————————————————</tspan></text>
-<text x="417.8" y="61.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">OS</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ...............................</tspan><tspan fill="#89b4fa"> Windows 11, Ubuntu (WSL)</tspan></text>
-<text x="417.8" y="79.8" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Uptime</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ..........................</tspan><tspan fill="#89b4fa"> 5 years, 1 month, 28 days</tspan></text>
-<text x="417.8" y="98.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Location</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ......................................</tspan><tspan fill="#89b4fa"> Philippines</tspan></text>
-<text x="417.8" y="116.8" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Stack</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ............................</tspan><tspan fill="#89b4fa"> React, Next.js, Supabase</tspan></text>
-<text x="417.8" y="135.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Tools</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .....................................</tspan><tspan fill="#89b4fa"> VS Code, Cursor</tspan></text>
-<text x="417.8" y="153.8" textLength="8.4" lengthAdjust="spacing"><tspan fill="#6c7086">.</tspan></text>
-<text x="417.8" y="172.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Languages</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ................</tspan><tspan fill="#89b4fa"> TypeScript,JavaScript,Python,SQL</tspan></text>
-<text x="417.8" y="190.8" textLength="8.4" lengthAdjust="spacing"><tspan fill="#6c7086">.</tspan></text>
-<text x="417.8" y="209.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Role</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ..................................</tspan><tspan fill="#89b4fa"> Full-Stack Engineer</tspan></text>
-<text x="417.8" y="227.8" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">AI.Models</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .........................</tspan><tspan fill="#89b4fa"> Opus, Astra, Muse Spark</tspan></text>
-<text x="417.8" y="246.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">AI.Agents</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ....................</tspan><tspan fill="#89b4fa"> Claude Code, Codex, OpenCode</tspan></text>
-<text x="417.8" y="264.8" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">GitHub</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ...........................................</tspan><tspan fill="#89b4fa"> marrrkkk</tspan></text>
-<text x="417.8" y="283.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#cdd6f4">- Contact </tspan><tspan fill="#6c7086">————————————————————————————————————————————————————</tspan></text>
-<text x="417.8" y="301.8" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Email</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .............................</tspan><tspan fill="#89b4fa"> marklouie.dev@gmail.com</tspan></text>
-<text x="417.8" y="320.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">LinkedIn</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .....................................</tspan><tspan fill="#89b4fa"> in/marrrkkk/</tspan></text>
-<text x="417.8" y="338.8" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Twitter</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .......................................</tspan><tspan fill="#89b4fa"> @marrrkkk__</tspan></text>
-<text x="417.8" y="357.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#cdd6f4">- GitHub Stats </tspan><tspan fill="#6c7086">———————————————————————————————————————————————</tspan></text>
-<text x="417.8" y="375.8" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Repos</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .......</tspan><tspan fill="#89b4fa"> 67 {Contributed: 6}</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#cba6f7">Stars</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ............</tspan><tspan fill="#89b4fa"> 114</tspan></text>
-<text x="417.8" y="394.3" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Commits</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ...................</tspan><tspan fill="#89b4fa"> 2,772</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#cba6f7">Followers</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .........</tspan><tspan fill="#89b4fa"> 33</tspan></text>
+<text x="417.8" y="55.7" textLength="520.8" lengthAdjust="spacing"><tspan fill="#cdd6f4">mark@marrrkkk </tspan><tspan fill="#6c7086">————————————————————————————————————————————————</tspan></text>
+<text x="417.8" y="74.2" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">OS</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ...............................</tspan><tspan fill="#89b4fa"> Windows 11, Ubuntu (WSL)</tspan></text>
+<text x="417.8" y="92.7" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Uptime</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ..........................</tspan><tspan fill="#89b4fa"> 5 years, 1 month, 28 days</tspan></text>
+<text x="417.8" y="111.2" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Location</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ......................................</tspan><tspan fill="#89b4fa"> Philippines</tspan></text>
+<text x="417.8" y="129.7" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Stack</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ............................</tspan><tspan fill="#89b4fa"> React, Next.js, Supabase</tspan></text>
+<text x="417.8" y="148.2" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Tools</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .....................................</tspan><tspan fill="#89b4fa"> VS Code, Cursor</tspan></text>
+<text x="417.8" y="166.7" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Languages</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .............</tspan><tspan fill="#89b4fa"> TypeScript, JavaScript, Python, SQL</tspan></text>
+<text x="417.8" y="185.2" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Role</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ..................................</tspan><tspan fill="#89b4fa"> Full-Stack Engineer</tspan></text>
+<text x="417.8" y="203.7" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">AI.Models</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .........................</tspan><tspan fill="#89b4fa"> Opus, Astra, Muse Spark</tspan></text>
+<text x="417.8" y="222.2" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">AI.Agents</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ....................</tspan><tspan fill="#89b4fa"> Claude Code, Codex, OpenCode</tspan></text>
+<text x="417.8" y="240.7" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">GitHub</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ...........................................</tspan><tspan fill="#89b4fa"> marrrkkk</tspan></text>
+<text x="417.8" y="259.2" textLength="520.8" lengthAdjust="spacing"><tspan fill="#cdd6f4">- Contact </tspan><tspan fill="#6c7086">————————————————————————————————————————————————————</tspan></text>
+<text x="417.8" y="277.7" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Email</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .............................</tspan><tspan fill="#89b4fa"> marklouie.dev@gmail.com</tspan></text>
+<text x="417.8" y="296.2" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">LinkedIn</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .....................................</tspan><tspan fill="#89b4fa"> in/marrrkkk/</tspan></text>
+<text x="417.8" y="314.7" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Twitter</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .......................................</tspan><tspan fill="#89b4fa"> @marrrkkk__</tspan></text>
+<text x="417.8" y="333.2" textLength="520.8" lengthAdjust="spacing"><tspan fill="#cdd6f4">- GitHub Stats </tspan><tspan fill="#6c7086">———————————————————————————————————————————————</tspan></text>
+<text x="417.8" y="351.7" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Repos</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .......</tspan><tspan fill="#89b4fa"> 67 {Contributed: 6}</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#cba6f7">Stars</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ............</tspan><tspan fill="#89b4fa"> 114</tspan></text>
+<text x="417.8" y="370.2" textLength="520.8" lengthAdjust="spacing"><tspan fill="#6c7086">. </tspan><tspan fill="#cba6f7">Commits</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> ...................</tspan><tspan fill="#89b4fa"> 2,772</tspan><tspan fill="#cdd6f4"> | </tspan><tspan fill="#cba6f7">Followers</tspan><tspan fill="#cdd6f4">:</tspan><tspan fill="#6c7086"> .........</tspan><tspan fill="#89b4fa"> 33</tspan></text>
 </g>
 <g>
-<rect x="434.6" y="410.8" width="24" height="14" fill="#45475a"/>
-<rect x="458.6" y="410.8" width="24" height="14" fill="#f38ba8"/>
-<rect x="482.6" y="410.8" width="24" height="14" fill="#a6e3a1"/>
-<rect x="506.6" y="410.8" width="24" height="14" fill="#f9e2af"/>
-<rect x="530.6" y="410.8" width="24" height="14" fill="#89b4fa"/>
-<rect x="554.6" y="410.8" width="24" height="14" fill="#cba6f7"/>
-<rect x="578.6" y="410.8" width="24" height="14" fill="#94e2d5"/>
-<rect x="602.6" y="410.8" width="24" height="14" fill="#bac2de"/>
+<rect x="434.6" y="386.7" width="24" height="14" fill="#45475a"/>
+<rect x="458.6" y="386.7" width="24" height="14" fill="#f38ba8"/>
+<rect x="482.6" y="386.7" width="24" height="14" fill="#a6e3a1"/>
+<rect x="506.6" y="386.7" width="24" height="14" fill="#f9e2af"/>
+<rect x="530.6" y="386.7" width="24" height="14" fill="#89b4fa"/>
+<rect x="554.6" y="386.7" width="24" height="14" fill="#cba6f7"/>
+<rect x="578.6" y="386.7" width="24" height="14" fill="#94e2d5"/>
+<rect x="602.6" y="386.7" width="24" height="14" fill="#bac2de"/>
 </g></svg>
