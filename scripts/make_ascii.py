@@ -13,10 +13,10 @@ RAMP = " `.:~;=+?|)]oX#%&@"
 CELL_ASPECT = 0.52
 BG_CUTOFF = 225  # paper-white background maps to blank, not dots
 # ponytail: fixed box crop, no auto face-detect/rembg — re-tune BOX if you swap image
-BOX = (100, 50, 800, 950)
+BOX = (0, 0, 1080, 1011)
 
 
-def convert(cols: int = 70, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
+def convert(cols: int = 76, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
     from PIL import Image, ImageOps
 
     im = Image.open(SRC).convert("L")
@@ -40,7 +40,7 @@ def convert(cols: int = 70, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cols", type=int, default=70)
+    ap.add_argument("--cols", type=int, default=76)
     ap.add_argument("--box", type=int, nargs=4, default=BOX)
     ap.add_argument("--gamma", type=float, default=1.0)
     args = ap.parse_args()
