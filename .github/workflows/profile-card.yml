@@ -1,18 +1,9 @@
 name: Profile Card Update
 
+# ponytail: Actions blocked on this account (billing lock) — dispatch-only so
+# pushes don't collect red Xs. Local `update.sh`/`update.bat` does the same
+# render+commit+push for free. Re-add schedule/push triggers if Actions unlocks.
 on:
-  schedule:
-    - cron: '7 * * * *'   # hourly: grid + tiles track your contributions near real-time
-    # GitHub's calendar starts a new day at 00:00 UTC (08:00 Manila). GitHub
-    # often delays scheduled runs, so a few extra tries right after that make
-    # sure the new day appears on the grid promptly.
-    - cron: '2,20,40 0 * * *'
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/**'
-      - 'assets/portrait.txt'
-      - '.github/workflows/profile-card.yml'
   workflow_dispatch:
 
 permissions:
