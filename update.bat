@@ -7,6 +7,8 @@ python scripts/profile_card.py || exit /b 1
 python scripts/pacman_grid.py || exit /b 1
 python scripts/activity.py || exit /b 1
 python scripts/contrib_graph.py || exit /b 1
-git add dark_mode.svg light_mode.svg pacman_dark.svg pacman_light.svg activity_dark.svg activity_light.svg graph_dark.svg graph_light.svg
+REM Bump the ?v= cache-buster so GitHub's image proxy fetches fresh SVGs.
+powershell -NoProfile -Command "(Get-Content README.md) -replace '\?v=(\d+)', { param($m) '?v=' + ([int]$m.Groups[1].Value + 1) } | Set-Content README.md"
+git add README.md dark_mode.svg light_mode.svg pacman_dark.svg pacman_light.svg activity_dark.svg activity_light.svg graph_dark.svg graph_light.svg
 git diff --cached --quiet && echo Cards unchanged. && exit /b 0
 git commit -m "chore: update profile cards" && git push

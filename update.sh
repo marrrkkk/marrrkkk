@@ -8,6 +8,8 @@ python3 scripts/profile_card.py
 python3 scripts/pacman_grid.py
 python3 scripts/activity.py
 python3 scripts/contrib_graph.py
-git add dark_mode.svg light_mode.svg pacman_dark.svg pacman_light.svg activity_dark.svg activity_light.svg graph_dark.svg graph_light.svg
+# Bump the ?v= cache-buster so GitHub's image proxy fetches fresh SVGs.
+perl -pi -e 's/\?v=(\d+)/"?v=".($1+1)/e' README.md
+git add README.md dark_mode.svg light_mode.svg pacman_dark.svg pacman_light.svg activity_dark.svg activity_light.svg graph_dark.svg graph_light.svg
 git diff --cached --quiet && { echo "Cards unchanged."; exit 0; }
 git commit -m "chore: update profile cards" && git push
