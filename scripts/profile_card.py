@@ -23,7 +23,7 @@ PROFILE = [
     ("Stack", "React, Next.js, Supabase"),
     ("Tools", "VS Code, Cursor"),
     None,
-    ("Languages", "TypeScript, JavaScript, Python, SQL"),
+    ("Languages", "TypeScript,JavaScript,Python,SQL"),
     None,
     ("Role", "Full-Stack Engineer"),
     ("AI.Models", "Opus, Astra, Muse Spark"),
