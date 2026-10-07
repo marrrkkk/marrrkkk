@@ -12,16 +12,16 @@ OUT = ROOT / "assets" / "portrait.txt"
 RAMP = " `.:~;=+?|)]oX#%&@"
 CELL_ASPECT = 0.52
 # ponytail: fixed box crop, no auto face-detect/rembg — re-tune BOX if you swap image
-BOX = (140, 30, 700, 700)
+BOX = (200, 220, 600, 620)
 
 
-def convert(cols: int = 80, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
-    from PIL import Image, ImageEnhance
+def convert(cols: int = 60, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
+    from PIL import Image, ImageFilter
 
     im = Image.open(SRC).convert("L")
     x0, y0, x1, y1 = box
     im = im.crop((x0, y0, x1, y1))
-    im = ImageEnhance.Contrast(im).enhance(1.4)  # line-art wants punch
+    im = im.filter(ImageFilter.GaussianBlur(1))  # kills print speckle
     w, h = im.size
     rows = max(1, round(cols * h / w * CELL_ASPECT))
     im = im.resize((cols, rows), Image.LANCZOS)
