@@ -12,10 +12,10 @@ OUT = ROOT / "assets" / "portrait.txt"
 RAMP = " `.:~;=+?|)]oX#%&@"
 CELL_ASPECT = 0.52
 # ponytail: fixed box crop, no auto face-detect/rembg — re-tune BOX if you swap image
-BOX = (200, 220, 600, 620)
+BOX = (80, 0, 1000, 1050)
 
 
-def convert(cols: int = 60, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
+def convert(cols: int = 80, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
     from PIL import Image, ImageFilter
 
     im = Image.open(SRC).convert("L")
@@ -39,7 +39,7 @@ def convert(cols: int = 60, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cols", type=int, default=60)
+    ap.add_argument("--cols", type=int, default=80)
     ap.add_argument("--box", type=int, nargs=4, default=BOX)
     ap.add_argument("--gamma", type=float, default=1.0)
     args = ap.parse_args()
