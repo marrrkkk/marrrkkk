@@ -1,25 +1,18 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+  <img alt="Mark: Full-Stack Engineer, React/Next.js TypeScript" src="light_mode.svg">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="pacman_dark.svg">
+  <img alt="Contribution graph: a pixel Pac-Man eats this year's GitHub contributions" src="pacman_light.svg">
+</picture>
 
-# hey, I'm Mark 👋  
-I'm a Full-Stack Engineer, specializing in React/Next.js with TypeScript
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="graph_dark.svg">
+  <img alt="Daily GitHub contributions for the current month" src="graph_light.svg">
+</picture>
 
-[![wakatime](https://wakatime.com/badge/user/8044c689-6a7c-43a8-be35-68e7ff75f4f1.svg)](https://wakatime.com/@8044c689-6a7c-43a8-be35-68e7ff75f4f1)
-
-[![Discord Presence](https://lanyard.cnrad.dev/api/814406096022011934)](https://discord.com/users/814406096022011934)
-
-## Skills
-
-[![My Skills](https://skillicons.dev/icons?i=react,next,tailwind,ts,js,supabase,express)](https://github.com/marrrkkk/marrrkkk)
-
-## Stats
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=marrrkkk&theme=tokyonight)](https://git.io/streak-stats)
-
-:mailbox: Reach me out!
-
-[![Twitter Badge](https://img.shields.io/badge/-@marrrkkk__-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/marrrkkk__)](https://twitter.com/marrrkkk__) 
-[![Linkedin Badge](https://img.shields.io/badge/-Mark_Louie-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mark-louie-alvarez-b90162257/) 
-[![Mail Badge](https://img.shields.io/badge/-@marklouiealvarez_-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://instagram.com/marrrrkkkk__/) 
-[![Mail Badge](https://img.shields.io/badge/-definitelynotmark13-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:marklouie.dev@gmail.com)
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="activity_dark.svg">
+  <img alt="Contribution activity: commits per repository and new repositories for the last few months" src="activity_light.svg">
+</picture>
