@@ -40,16 +40,26 @@ PROFILE = [
 ]
 
 THEMES = {
-    "dark": dict(bg="#161b22", text="#c9d1d9", key="#ffa657", value="#a5d6ff",
-                 dim="#616e7f", ascii="#c9d1d9", invert=False),
-    "light": dict(bg="#f6f8fa", text="#24292f", key="#953800", value="#0a3069",
-                  dim="#9aa6b5", ascii="#24292f", invert=True),
+    # Catppuccin Mocha / Latte. key=mauve, value=blue, dim=overlay.
+    "dark": dict(bg="#1e1e2e", text="#cdd6f4", key="#cba6f7", value="#89b4fa",
+                 dim="#6c7086", ascii="#cdd6f4", invert=False,
+                 palette=["#45475a", "#f38ba8", "#a6e3a1", "#f9e2af",
+                          "#89b4fa", "#cba6f7", "#94e2d5", "#bac2de",
+                          "#585b70", "#f5c2e7", "#94e2d5", "#fab387",
+                          "#89dceb", "#f5e0dc", "#b4befe", "#cdd6f4"]),
+    "light": dict(bg="#eff1f5", text="#4c4f69", key="#8839ef", value="#1e66f5",
+                  dim="#9ca0b0", ascii="#4c4f69", invert=True,
+                  palette=["#4c4f69", "#d20f39", "#40a02b", "#df8e1d",
+                           "#1e66f5", "#8839ef", "#179299", "#dce0e8",
+                           "#6c6f85", "#ea76cb", "#179299", "#fe640b",
+                           "#04a5e5", "#dc8a78", "#7287fd", "#ffffff"]),
 }
 
 PAD = 28
 ASCII_FONT, ASCII_CHAR_W, ASCII_LINE = 9, 5.4, 10.4
 INFO_FONT, INFO_CHAR_W, INFO_LINE = 14, 8.4, 18.5
 GAP = 28
+PAL_W, PAL_H, PAL_GAP, PAL_TOP = 26, 13, 5, 12  # neofetch colour blocks
 
 
 QUERY = """
@@ -178,7 +188,8 @@ def render(theme: dict, portrait: list[str], info: list[list[tuple[str, str]]]) 
     ascii_h = len(portrait) * ASCII_LINE
     info_w = WIDTH * INFO_CHAR_W
     info_h = len(info) * INFO_LINE
-    content_h = max(ascii_h, info_h)
+    palette_h = PAL_TOP + 2 * PAL_H + PAL_GAP
+    content_h = max(ascii_h, info_h + palette_h)
     width = round(PAD * 2 + ascii_w + GAP + info_w)
     height = round(PAD * 2 + content_h)
 
@@ -203,7 +214,7 @@ def render(theme: dict, portrait: list[str], info: list[list[tuple[str, str]]]) 
     out.append("</g>")
 
     x = PAD + ascii_w + GAP
-    y1 = PAD + (content_h - info_h) / 2 + INFO_LINE * 0.8
+    y1 = PAD + (content_h - (info_h + palette_h)) / 2 + INFO_LINE * 0.8
     out.append(f'<g font-size="{INFO_FONT}">')
     for i, spans in enumerate(info):
         n = sum(len(t) for _, t in spans)
@@ -212,6 +223,16 @@ def render(theme: dict, portrait: list[str], info: list[list[tuple[str, str]]]) 
             f'<text x="{x:.1f}" y="{y1 + i * INFO_LINE:.1f}" textLength="{n * INFO_CHAR_W:.1f}" '
             f'lengthAdjust="spacing">{tspans}</text>'
         )
+    out.append("</g>")
+    # neofetch-style palette: 8 normal + 8 bright blocks under the details
+    py = y1 + len(info) * INFO_LINE + PAL_TOP - PAL_H
+    out.append("<g>")
+    for r in range(2):
+        for c in range(8):
+            bx = x + 2 * INFO_CHAR_W + c * (PAL_W + PAL_GAP)
+            by = py + r * (PAL_H + PAL_GAP)
+            out.append(f'<rect x="{bx:.1f}" y="{by:.1f}" width="{PAL_W}" height="{PAL_H}" '
+                       f'fill="{theme["palette"][r * 8 + c]}"/>')
     out.append("</g></svg>")
     return "\n".join(out) + "\n"
 
