@@ -11,11 +11,12 @@ OUT = ROOT / "assets" / "portrait.txt"
 
 RAMP = " `.:~;=+?|)]oX#%&@"
 CELL_ASPECT = 0.52
+BG_CUTOFF = 225  # paper-white background maps to blank, not dots
 # ponytail: fixed box crop, no auto face-detect/rembg — re-tune BOX if you swap image
 BOX = (80, 0, 1000, 1050)
 
 
-def convert(cols: int = 80, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
+def convert(cols: int = 60, box: tuple = BOX, gamma: float = 1.2) -> list[str]:
     from PIL import Image, ImageFilter
 
     im = Image.open(SRC).convert("L")
@@ -27,11 +28,11 @@ def convert(cols: int = 80, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
     im = im.resize((cols, rows), Image.LANCZOS)
     px = list(im.getdata())
     n = len(RAMP) - 1
-    # dark ink -> dense char; white bg -> space
+    # dark ink -> dense char; paper background -> blank (no dot noise)
     lines = []
     for r in range(rows):
         row = px[r * cols:(r + 1) * cols]
-        lines.append("".join(RAMP[min(n, int(((255 - v) / 255) ** gamma * n + 0.5))] for v in row).rstrip())
+        lines.append("".join(" " if v > BG_CUTOFF else RAMP[min(n, int(((255 - v) / 255) ** gamma * n + 0.5))] for v in row).rstrip())
     while lines and not lines[-1]:
         lines.pop()
     return lines
@@ -39,9 +40,9 @@ def convert(cols: int = 80, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cols", type=int, default=80)
+    ap.add_argument("--cols", type=int, default=60)
     ap.add_argument("--box", type=int, nargs=4, default=BOX)
-    ap.add_argument("--gamma", type=float, default=1.0)
+    ap.add_argument("--gamma", type=float, default=1.2)
     args = ap.parse_args()
     lines = convert(args.cols, tuple(args.box), args.gamma)
     OUT.parent.mkdir(parents=True, exist_ok=True)
