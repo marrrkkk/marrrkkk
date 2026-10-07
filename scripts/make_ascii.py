@@ -16,14 +16,13 @@ BG_CUTOFF = 225  # paper-white background maps to blank, not dots
 BOX = (0, 0, 1080, 1011)
 
 
-def convert(cols: int = 76, box: tuple = BOX, gamma: float = 0.9) -> list[str]:
-    from PIL import Image, ImageEnhance, ImageOps
+def convert(cols: int = 76, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
+    from PIL import Image, ImageFilter
 
     im = Image.open(SRC).convert("L")
     x0, y0, x1, y1 = box
     im = im.crop((x0, y0, x1, y1))
-    im = ImageOps.autocontrast(im, cutoff=1)  # spread ink tones across RAMP
-    im = ImageEnhance.Contrast(im).enhance(1.6)  # keep thin face lines dark
+    im = im.filter(ImageFilter.GaussianBlur(1))  # kills print speckle
     w, h = im.size
     rows = max(1, round(cols * h / w * CELL_ASPECT))
     im = im.resize((cols, rows), Image.LANCZOS)
@@ -43,7 +42,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--cols", type=int, default=76)
     ap.add_argument("--box", type=int, nargs=4, default=BOX)
-    ap.add_argument("--gamma", type=float, default=0.9)
+    ap.add_argument("--gamma", type=float, default=1.0)
     args = ap.parse_args()
     lines = convert(args.cols, tuple(args.box), args.gamma)
     OUT.parent.mkdir(parents=True, exist_ok=True)
