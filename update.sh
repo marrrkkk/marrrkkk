@@ -3,7 +3,7 @@
 # Usage: ./update.sh  (needs: python3, gh logged in)
 set -e
 cd "$(dirname "$0")"
-export GITHUB_TOKEN="$(gh auth token)"
+export GITHUB_TOKEN="${GITHUB_TOKEN:-$(gh auth token)}"
 python3 scripts/profile_card.py
 python3 scripts/pacman_grid.py
 python3 scripts/activity.py
