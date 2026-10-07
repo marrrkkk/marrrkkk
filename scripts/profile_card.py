@@ -59,7 +59,7 @@ PAD = 28
 ASCII_FONT, ASCII_CHAR_W, ASCII_LINE = 9, 5.4, 10.4
 INFO_FONT, INFO_CHAR_W, INFO_LINE = 14, 8.4, 18.5
 GAP = 28
-PAL_W, PAL_H, PAL_GAP, PAL_TOP = 28, 16, 0, 12  # neofetch colour blocks
+PAL_W, PAL_H, PAL_GAP, PAL_TOP = 24, 14, 0, 12  # neofetch colour blocks
 
 
 QUERY = """
@@ -188,7 +188,7 @@ def render(theme: dict, portrait: list[str], info: list[list[tuple[str, str]]]) 
     ascii_h = len(portrait) * ASCII_LINE
     info_w = WIDTH * INFO_CHAR_W
     info_h = len(info) * INFO_LINE
-    palette_h = PAL_TOP + 2 * PAL_H + PAL_GAP
+    palette_h = PAL_TOP + PAL_H
     content_h = max(ascii_h, info_h + palette_h)
     width = round(PAD * 2 + ascii_w + GAP + info_w)
     height = round(PAD * 2 + content_h)
@@ -224,15 +224,13 @@ def render(theme: dict, portrait: list[str], info: list[list[tuple[str, str]]]) 
             f'lengthAdjust="spacing">{tspans}</text>'
         )
     out.append("</g>")
-    # neofetch-style palette: 8 normal + 8 bright blocks under the details
+    # neofetch-style palette: one row of 8 blocks under the details
     py = y1 + len(info) * INFO_LINE + PAL_TOP - PAL_H
     out.append("<g>")
-    for r in range(2):
-        for c in range(8):
-            bx = x + 2 * INFO_CHAR_W + c * (PAL_W + PAL_GAP)
-            by = py + r * (PAL_H + PAL_GAP)
-            out.append(f'<rect x="{bx:.1f}" y="{by:.1f}" width="{PAL_W}" height="{PAL_H}" '
-                       f'fill="{theme["palette"][r * 8 + c]}"/>')
+    for c in range(8):
+        bx = x + 2 * INFO_CHAR_W + c * (PAL_W + PAL_GAP)
+        out.append(f'<rect x="{bx:.1f}" y="{py:.1f}" width="{PAL_W}" height="{PAL_H}" '
+                   f'fill="{theme["palette"][c]}"/>')
     out.append("</g></svg>")
     return "\n".join(out) + "\n"
 
