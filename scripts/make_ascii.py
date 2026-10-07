@@ -13,16 +13,16 @@ RAMP = " `.:~;=+?|)]oX#%&@"
 CELL_ASPECT = 0.52
 BG_CUTOFF = 225  # paper-white background maps to blank, not dots
 # ponytail: fixed box crop, no auto face-detect/rembg — re-tune BOX if you swap image
-BOX = (80, 0, 1000, 1050)
+BOX = (100, 50, 800, 950)
 
 
-def convert(cols: int = 70, box: tuple = BOX, gamma: float = 1.2) -> list[str]:
-    from PIL import Image, ImageFilter
+def convert(cols: int = 70, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
+    from PIL import Image, ImageOps
 
     im = Image.open(SRC).convert("L")
     x0, y0, x1, y1 = box
     im = im.crop((x0, y0, x1, y1))
-    im = im.filter(ImageFilter.GaussianBlur(1))  # kills print speckle
+    im = ImageOps.autocontrast(im, cutoff=1)  # spread ink tones across RAMP
     w, h = im.size
     rows = max(1, round(cols * h / w * CELL_ASPECT))
     im = im.resize((cols, rows), Image.LANCZOS)
@@ -42,7 +42,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--cols", type=int, default=70)
     ap.add_argument("--box", type=int, nargs=4, default=BOX)
-    ap.add_argument("--gamma", type=float, default=1.2)
+    ap.add_argument("--gamma", type=float, default=1.0)
     args = ap.parse_args()
     lines = convert(args.cols, tuple(args.box), args.gamma)
     OUT.parent.mkdir(parents=True, exist_ok=True)
