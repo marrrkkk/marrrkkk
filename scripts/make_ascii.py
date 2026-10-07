@@ -39,7 +39,7 @@ def convert(cols: int = 80, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cols", type=int, default=80)
+    ap.add_argument("--cols", type=int, default=60)
     ap.add_argument("--box", type=int, nargs=4, default=BOX)
     ap.add_argument("--gamma", type=float, default=1.0)
     args = ap.parse_args()
