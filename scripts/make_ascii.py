@@ -12,6 +12,10 @@ OUT = ROOT / "assets" / "portrait.txt"
 RAMP = " `.:~;=+?|)]oX#%&@"
 CELL_ASPECT = 0.52
 BG_CUTOFF = 225  # paper-white background maps to blank, not dots
+# Hand-tuned mouth (row, col, text): the source lips are sub-pixel at this
+# scale, so the generator smudges them — stamp the lip line back afterwards.
+MOUTH = (24, 19, ":==:")
+CLEAR_ABOVE = (23, 14, 23)  # speckles the converter leaves over the lips
 # ponytail: fixed box crop, no auto face-detect/rembg — re-tune BOX if you swap image
 BOX = (0, 0, 1080, 1011)
 
@@ -35,6 +39,14 @@ def convert(cols: int = 76, box: tuple = BOX, gamma: float = 1.0) -> list[str]:
         lines.append("".join(" " if v > BG_CUTOFF else RAMP[min(n, int(((255 - v) / 255) ** gamma * n + 0.5))] for v in row).rstrip())
     while lines and not lines[-1]:
         lines.pop()
+    r, c, mouth = MOUTH  # keep hand-tuned lips across regenerations
+    if r < len(lines):
+        row = lines[r].ljust(c + len(mouth))
+        lines[r] = (row[:c] + mouth + row[c + len(mouth):]).rstrip()
+    cr, cc0, cc1 = CLEAR_ABOVE
+    if cr < len(lines):
+        row = lines[cr]
+        lines[cr] = (row[:cc0] + " " * (cc1 - cc0) + row[cc1:]).rstrip()
     return lines
 
 
