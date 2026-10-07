@@ -59,7 +59,7 @@ PAD = 28
 ASCII_FONT, ASCII_CHAR_W, ASCII_LINE = 9, 5.4, 10.4
 INFO_FONT, INFO_CHAR_W, INFO_LINE = 14, 8.4, 18.5
 GAP = 28
-PAL_W, PAL_H, PAL_GAP, PAL_TOP = 30, 14, 3, 12  # neofetch colour blocks
+PAL_W, PAL_H, PAL_GAP, PAL_TOP = 28, 16, 0, 12  # neofetch colour blocks
 
 
 QUERY = """
