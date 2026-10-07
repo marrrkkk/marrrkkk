@@ -31,7 +31,7 @@ PROFILE = [
     ("GitHub", USER),
     ("- Contact", None),
     ("Email", "marklouie.dev@gmail.com"),
-    ("LinkedIn", "in/mark-louie-alvarez-b90162257"),
+    ("LinkedIn", "in/marrrkkk/"),
     ("Twitter", "@marrrkkk__"),
     ("- GitHub Stats", None),
     "{stats_repos}",
