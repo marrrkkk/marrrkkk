@@ -1,13 +1,13 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=29">
-  <img alt="Mark: Full-Stack Engineer, React/Next.js TypeScript" src="light_mode.svg?v=29">
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=30">
+  <img alt="Mark: Full-Stack Engineer, React/Next.js TypeScript" src="light_mode.svg?v=30">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="graph_dark.svg?v=29">
-  <img alt="Daily GitHub contributions for the current month" src="graph_light.svg?v=29">
+  <source media="(prefers-color-scheme: dark)" srcset="graph_dark.svg?v=30">
+  <img alt="Daily GitHub contributions for the current month" src="graph_light.svg?v=30">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="activity_dark.svg?v=29">
-  <img alt="Contribution activity: commits per repository and new repositories for the last few months" src="activity_light.svg?v=29">
+  <source media="(prefers-color-scheme: dark)" srcset="activity_dark.svg?v=30">
+  <img alt="Contribution activity: commits per repository and new repositories for the last few months" src="activity_light.svg?v=30">
 </picture>
