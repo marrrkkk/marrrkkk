@@ -17,7 +17,7 @@ WIDTH = 62
 
 
 PROFILE = [
-    ("OS", "Windows 11, Ubuntu (WSL)"),
+    ("OS", "Windows 11, Arch Linux (WSL)"),
     ("Uptime", "{uptime}"),
     ("Location", "Philippines"),
     ("Stack", "React, Next.js, Supabase"),
