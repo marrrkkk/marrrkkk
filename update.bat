@@ -1,5 +1,5 @@
 @echo off
-REM Free local updater for Windows: renders all 8 cards and pushes. No GitHub Actions needed.
+REM Local manual updater for Windows: same render+commit+push as the daily GitHub Action.
 REM Usage: update.bat  (needs: python, gh logged in)
 cd /d "%~dp0"
 for /f "delims=" %%t in ('gh auth token') do set GITHUB_TOKEN=%%t

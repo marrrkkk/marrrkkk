@@ -1,9 +1,11 @@
-name: Profile Card Update
+name: Profile Cards Update
 
-# ponytail: Actions blocked on this account (billing lock) — dispatch-only so
-# pushes don't collect red Xs. Local `update.sh`/`update.bat` does the same
-# render+commit+push for free. Re-add schedule/push triggers if Actions unlocks.
+# Replaces the old Vercel Cron + api/update.py setup (deleted):
+# renders all SVGs daily and commits them back to main.
 on:
+  schedule:
+    # Midnight Asia/Manila (16:00 UTC), same cadence as the old Vercel cron.
+    - cron: '0 16 * * *'
   workflow_dispatch:
 
 permissions:
@@ -17,7 +19,7 @@ concurrency:
 
 jobs:
   render:
-    name: Render profile card and contribution grid
+    name: Render profile cards and contribution visuals
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -37,23 +39,24 @@ jobs:
           python scripts/contrib_graph.py
 
       - name: Commit if changed
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           CARDS="dark_mode.svg light_mode.svg activity_dark.svg activity_light.svg graph_dark.svg graph_light.svg"
-          # If main moved while we rendered (a push, or the WakaTime workflow),
+          # If main moved while we rendered (a push, or another workflow),
           # don't try to merge generated SVGs: start again from the new main,
           # re-render, and retry.
           for attempt in 1 2 3; do
+            # Only bump the ?v= cache-buster when the SVGs actually changed,
+            # so idle days don't produce empty churn commits.
             git add $CARDS
             if git diff --cached --quiet; then
               echo "Cards unchanged."
               exit 0
             fi
-            git commit -m "chore: update profile card"
+            perl -pi -e 's/\?v=(\d+)/"?v=".($1+1)/e' README.md
+            git add $CARDS README.md
+            git commit -m "chore: update profile cards"
             if git push; then
               exit 0
             fi

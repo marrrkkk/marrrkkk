@@ -1,5 +1,5 @@
 #!/bin/bash
-# Free local updater: renders all 8 cards and pushes. No GitHub Actions needed.
+# Local manual updater: same render+commit+push as the daily GitHub Action.
 # Usage: ./update.sh  (needs: python3, gh logged in)
 set -e
 cd "$(dirname "$0")"
